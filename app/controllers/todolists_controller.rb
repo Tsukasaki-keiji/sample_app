@@ -14,6 +14,7 @@ def create
 end
 
 def index
+  @list = List.all
 end
 
 private
