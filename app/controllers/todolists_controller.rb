@@ -13,6 +13,9 @@ def create
   redirect_to '/top'
 end
 
+def index
+end
+
 private
 
 def list_params
